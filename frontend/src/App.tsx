@@ -1,10 +1,17 @@
+import Header from "./componets/Header";
 import NotificationButton from "./componets/NotificationButton";
-
+import Salescard from "./componets/SalesCard";
 function App() {
   return (
     <>
-      <h1>heelo world</h1>
-      <NotificationButton />
+      <Header/>
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+           <Salescard/>
+          </div>
+        </section>
+      </main>
     </>
   )
 }
