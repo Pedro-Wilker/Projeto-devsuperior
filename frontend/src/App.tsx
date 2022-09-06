@@ -8,7 +8,6 @@ function App() {
       <main>
         <section id="sales">
           <div className="dsmeta-container">
-            <h1>adjajda</h1>
            <Salescard/>
           </div>
         </section>
